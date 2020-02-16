@@ -1,8 +1,19 @@
-***Fetching(pulling file from remote repo to local directory aka loca repo)***
-  Description = pulling files from github(remote repo) to local repo(local machine); 
+***Fetching***
+  Description =  pulling files from remote repo(github) to local repo(local machine).
 
-
+If(no updates to files in remote repo)
+{
   1) Clone the remote repo by copying its url to clipboard. Ex: https://github.com/clamslam12/gitPractice.git
   2) select and go to your local directory in cmd
   3) type git clone dir, where dir = remote repo url
   4) this will copy all contents from the remote repo to your local repo
+
+} else {
+  1) type git pull
+}
+
+
+***Pushing***
+Description = pushing files from local repo(local machine) to remote repo(github)
+
+
