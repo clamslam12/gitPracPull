@@ -1,5 +1,8 @@
-pulling files from github(remote repo) to local repo(local machine); No updates(only for files already present in remote repo before pulling to local repo ***FOR THE FIRST TIME***)
-1) Clone the remote repo by copying its url to clipboard. Ex: https://github.com/clamslam12/gitPracPull.git
-2) select and go to your local directory in cmd
-3) type git clone dir, where dir = remote repo url
-4) this will copy all contents from the remote repo to your local repo
+***Fetching(pulling file from remote repo to local directory aka loca repo)***
+  Description = pulling files from github(remote repo) to local repo(local machine); 
+
+
+  1) Clone the remote repo by copying its url to clipboard. Ex: https://github.com/clamslam12/gitPractice.git
+  2) select and go to your local directory in cmd
+  3) type git clone dir, where dir = remote repo url
+  4) this will copy all contents from the remote repo to your local repo
