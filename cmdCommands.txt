@@ -1,0 +1,4 @@
+you must delete all files in a subdirectory before you can delete it. 
+del directoryName or del /A:H directoryName (for hidden files like git) = delete directory
+rmdir = remove directory
+mkdir = make directory
