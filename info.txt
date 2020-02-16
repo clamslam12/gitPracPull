@@ -1,7 +1,15 @@
+if(local repo is not linked with remote repo)
+{
+	type git init
+}
+
+if(
+
 ***Fetching***
 
-  Description =  pulling files from remote repo(github) to local repo(local machine).
+  Description =  pulling files from remote repo(github) to local repo(local machine).)
 
+{
 If(no updates to files in remote repo)
 {
   1) Clone the remote repo by copying its url to clipboard. (Ex: https://github.com/clamslam12/gitPractice.git)
@@ -12,7 +20,8 @@ If(no updates to files in remote repo)
 } else {
   	 type git pull
 }
-
+}
+if (
 
 ***Pushing***
 
@@ -20,8 +29,8 @@ Description = pushing files from local repo(local machine) to remote repo(github
 	****The file structure of git****
 		You have files in your local machine or local directory. After you makes changes to file(s), there are a few steps
 		to push the changes to your remote repo. First changes are added to the index(staging area). Then commit the changes to the
-		head. At this point, committed changes are not in your remote repo. You have to push them to your remote repo.
-
+		head. At this point, committed changes are not in your remote repo. You have to push them to your remote repo.)
+{
 if(want to add all files to the index)
  {	
 	type git add * (add all files to the index)
@@ -33,6 +42,6 @@ if(want to add all files to the index)
 
 type git commit -m "message" (message = any messages you want for the changes you've made) to commit changes to the head.
 type git push origin master to push head to remote repo
-
+}
 
 
