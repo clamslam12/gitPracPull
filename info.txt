@@ -1,1 +1,2 @@
 pulling files from github(remote repo) to local repo(local machine)
+1) Clone the remote repo by copying url
