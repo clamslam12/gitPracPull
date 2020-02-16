@@ -1,4 +1,5 @@
 ***Fetching***
+
   Description =  pulling files from remote repo(github) to local repo(local machine).
 
 If(no updates to files in remote repo)
@@ -14,6 +15,7 @@ If(no updates to files in remote repo)
 
 
 ***Pushing***
+
 Description = pushing files from local repo(local machine) to remote repo(github)
 	****The file structure of git****
 		You have files in your local machine or local directory. After you makes changes to file(s), there are a few steps
@@ -22,7 +24,7 @@ Description = pushing files from local repo(local machine) to remote repo(github
 
 if(want to add all files to the index)
  {	
-	type git add .. (add all files to the index)
+	type git add * (add all files to the index)
 	
 } else{
 	type git add filename (filename = the file name you want to add to the index)
