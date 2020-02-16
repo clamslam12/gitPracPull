@@ -1,0 +1,5 @@
+you must delete all files in a subdirectory before you can delete it. 
+del input or del /A:H input (for hidden files like git) = delete input directory 
+rmdir = remove directory
+mkdir = make directory
+ren input output = rename input to output directory or file 

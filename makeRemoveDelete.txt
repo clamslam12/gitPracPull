@@ -1,2 +1,0 @@
-you must delete all files in a subdirectory before you can delete it. 
-del /A:H , rmdir, mkdir 
