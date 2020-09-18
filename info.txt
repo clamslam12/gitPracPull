@@ -21,7 +21,7 @@ If(no updates to files in remote repo)
   4) this will copy all contents from the remote repo to your local repo
 
 } else {
-  	 type git pull
+  	 type git pull (if error, git rebase origin/master before git pull)
 }
 }
 if (
