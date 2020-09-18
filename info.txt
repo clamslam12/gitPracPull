@@ -3,6 +3,9 @@ if(local repo is not linked with remote repo)
 	type git init
 }
 
+git remote add origin remoteURL; (git remote -v = show all remote repos, git remote rm remoteName = remove a remote repo)
+
+
 if(
 
 ***Fetching***
