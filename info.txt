@@ -1,0 +1,50 @@
+if(local repo is not linked with remote repo)
+{
+	type git init
+}
+
+git remote add origin remoteURL; (git remote -v = show all remote repos, git remote rm remoteName = remove a remote repo)
+
+
+if(
+
+***Fetching***
+
+  Description =  pulling files from remote repo(github) to local repo(local machine).)
+
+{
+If(no updates to files in remote repo)
+{
+  1) Clone the remote repo by copying its url to clipboard. (Ex: https://github.com/clamslam12/gitPractice.git)
+  2) select and go to your local directory in cmd
+  3) type git clone dir (dir = remote repo url)
+  4) this will copy all contents from the remote repo to your local repo
+
+} else {
+  	 type git pull (if error, git rebase origin/master before git pull)
+}
+}
+if (
+
+***Pushing***
+
+Description = pushing files from local repo(local machine) to remote repo(github)
+	****The file structure of git****
+		You have files in your local machine or local directory. After you makes changes to file(s), there are a few steps
+		to push the changes to your remote repo. First changes are added to the index(staging area). Then commit the changes to the
+		head. At this point, committed changes are not in your remote repo. You have to push them to your remote repo.)
+{
+if(want to add all files to the index)
+ {	
+	type git add * (add all files to the index)
+	
+} else{
+	type git add filename (filename = the file name you want to add to the index)
+	
+}
+
+type git commit -m "message" (message = any messages you want for the changes you've made) to commit changes to the head.
+type git push origin master to push head to remote repo
+}
+
+
